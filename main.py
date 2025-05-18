@@ -98,10 +98,6 @@ print(Bank.bank_name)
 # No class or instance variables should be used.
 
 
-
-
-
-
 class MathUtils():
     
     @staticmethod  # static na cls ko na self ko layta hain independent logic build krta hain
@@ -151,8 +147,6 @@ del logger
 # a private variable __ssn.
 
 # Try accessing all three variables from an object of the class and document what happens.
-
-
 
 
 class Employee():
@@ -213,7 +207,6 @@ print(person.inherit())
 # Inherit a class Rectangle that implements area().        
         
 
-
 from abc import ABC , abstractmethod
 
 
@@ -247,7 +240,6 @@ print(shape.area())
 # Assignment:
 # Create a class Dog with instance variables name and breed. 
 # Add an instance method bark() that prints a message including the dog's name.
-
 
 
 class Dog ():
@@ -350,7 +342,6 @@ print(my_car.drive())
 # Assignment:
 # Create a class Department and a class Employee. Use aggregation by having a Department object 
 # store a reference to an Employee object that exists independently of it.
-
 
 
 class Department():
@@ -496,8 +487,6 @@ print(p.greet())
 # @price.setter to update it, and @price.deleter to delete it.        
         
     
-    
-    
 class Product():
     
     def __init__(self,price):
@@ -538,7 +527,6 @@ del p.price
 # Assignment:
 # Create a class Multiplier with an __init__() to set a factor. Define a __call__() method that multiplies an input
 # by the factor. Test it with callable() and by calling the object like a function.
-
 
 
 class Multiplier():
